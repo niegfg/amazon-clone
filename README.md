@@ -194,9 +194,10 @@ Please discuss it with us first by creating a new issue.
 
 
 
-##Contributors
+## Contributors
 
 
 <a href = "https://github.com/niegfg/amazon-clone/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=amazon-clone/graphs"/>
+  <img src = "https://contrib.rocks/image?repo=niegfg/amazon-clone"/>
 </a>
+
