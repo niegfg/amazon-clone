@@ -19,7 +19,7 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 
 This is an amazon clone! It was built using HTML, CSS and JS. See it in action!
 
-<img src="https://cdn.discordapp.com/attachments/1004464884773306368/1028308743483555871/unknown.png" onclick="https://niegfg.github.io/amazon-clone/"/>
+[<img src="https://cdn.discordapp.com/attachments/1004464884773306368/1028308743483555871/unknown.png"/>](https://niegfg.github.io/amazon-clone/)
 
 ### This repository aims to help code beginners with their first successful pull request and open source contribution. :partying_face:
 
