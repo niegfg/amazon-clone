@@ -191,3 +191,12 @@ We love to have `articles` and `codes` in different languages and the `bettermen
 Please discuss it with us first by creating a new issue.
 
 :tada: :smiley: **Happy Contributing** :smiley: :confetti_ball: :tada:
+
+
+
+##Contributors
+
+
+<a href = "https://github.com/niegfg/amazon-clone/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=amazon-clone/graphs"/>
+</a>
