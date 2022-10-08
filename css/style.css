@@ -106,6 +106,7 @@ body {
   margin-top: 20px;
   width: 100%;
   height: auto;
+  cursor:pointer;
 }
 .section-1 .section-1-container .section-1-column p {
   margin-top: 10px;
@@ -152,6 +153,7 @@ body {
   height: auto;
   max-width: 270px;
   max-height: 200px;
+  cursor:pointer;
 }
 
 /* SECTION 3 */
