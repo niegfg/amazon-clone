@@ -12,31 +12,32 @@
         <p id="Sign_inTxt">
           Sign in
         </p>
-  
+        <form onsubmit="login()" id="loginForm" >
+          <small><span id="error" style="color: red"></span></small>
         <label>
           <strong>Email (phone for mobile accounts)</strong>
           <br>
-          <input type="email" name="email" value="">
+          <input id="email" type="email" name="email" value="">
         </label>
   
         <br>
   
         <label>
           <strong>Password</strong>
-          <span><a href="#" id="password">Forgot your password?</a></span>
+          <span><a href="#" id="password" onclick="forgotPass()">Forgot your password?</a></span>
           <br>
-          <input type="password" name="password" value="">
+          <input id="password" type="password" name="password" value="">
         </label>
   
         <div>
-          <button id="amazon">Sign in</button>
+          <button id="amazon" onclick="login()">Sign in</button>
         </div>
   
         <div id="createAccount">
           <h2><span>New to Amazon?</span></h2>
-          <button id="newAccount" name="newAcct">Create your Amazon account</button>
+          <button id="newAccount" name="newAcct" onclick="signUp()">Create your Amazon account</button>
         </div>
-  
+  </form>
   
   
       </div>
@@ -51,8 +52,9 @@
         © 1996-2016, Amazon.com, Inc. or its affiliates
       </p>
     </div>
-  
-  
+        <script src="firebase.js"></script>
+        <script src="index.js"></script>
+        <script src="welcome.js"></script>
     </body>
   </html>
   
