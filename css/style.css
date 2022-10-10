@@ -10,6 +10,7 @@
   --major-bg-color: #131921;
   --minor-bg-color: #ebeded;
   --amazon-major-color: #febd68;
+  --accent-color: #293546;
 }
 
 /* BODY */
@@ -246,9 +247,24 @@ body {
   border-radius: 10px;
 }
 
+/* SECTION 5 */
+
+.section-5 .section-5-container a:link, a:visited {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  line-height: 22px;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+}
+
+.section-5 .section-5-container a:hover, a:active {
+  background-color: #37485f;
+}
+
 /* FOOTER */
 footer {
-  margin-top: 20px;
   font-size: 12px;
   width: 100%;
   height: 50px;
