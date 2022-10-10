@@ -15,6 +15,9 @@ body{
 .main-container{
     display: flex;
     flex-direction: column;
+    min-width: 300px;
+    width: 400px;
+    padding: 20px 10px;
 }
 
 .logo-container{
@@ -51,7 +54,7 @@ label{
 }
 
 .register-form input{
-    min-width: 350px;
+    width: 100%;
     height: 35px;
     border-radius: 5px;
     outline: none;
