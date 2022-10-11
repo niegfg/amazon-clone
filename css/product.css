@@ -75,3 +75,7 @@
   padding: 8px;
   border-radius: 10px;
 }
+.product-detail-body .buttons .buy-now:hover,
+.product-detail-body .buttons .add-to-cart:hover{
+  cursor: pointer;
+}
