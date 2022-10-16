@@ -11,55 +11,163 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    
   </head>
   <body>
     <!-- NAVBAR -->
-    <header class="header">
-      <a name="nav-top"></a>
-      <nav class="header-nav">
-        <div class="header-container">
-         
-          <a href="https://niegfg.github.io/amazon-clone/" class="amazon-logo" ><img src="https://mlsvc01-prod.s3.amazonaws.com/fd4e81f3101/a77159a6-cbf4-46a1-a731-522b77da3e42.png?ver=1649349594000" class="amazon-logo" style= "cursor:pointer"></a>
-        
-          <div class="header-search">
-            <input class="search-input" type="text" />
-            <button class="search-button">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
-            </button>
-          </div>
-          <div class="header-cart">
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path style= "cursor:pointer"
-                  d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-                />
-              </svg>
-            </div>
-            <p>Cart</p>
-          </div>
-        </div>
-        <div></div>
-      </nav>
-    </header>
+ <header class="header">
+  <nav class="header-nav">
 
+  <div>
+    <a href="https://niegfg.github.io/amazon-clone/"  ><img src="https://mlsvc01-prod.s3.amazonaws.com/fd4e81f3101/a77159a6-cbf4-46a1-a731-522b77da3e42.png?ver=1649349594000" class="amazon-logo" style= "cursor:pointer"></a>
+  </div>
+
+  <div class="wrap-location">
+  <div class="nav-location" >
+    <div class="location-icon">
+   <img src="icons8-location-update-32.png">
+    </div>
+
+   <div class="nav-location-info">
+    <p class="line1">Hello</p>
+    <p class="line2">Select your address</p>
+  </div>
+  </div>
+</div>  
+
+
+<div class="header-search">
+  <div id="dropdown">
+  <select class="custom-select"> 
+    
+    <option selected="selected" value="search-alias=aps">All </option>
+        <option value="search-alias=alexa-skills">Alexa Skills</option>
+        <option value="search-alias=amazon-devices">Amazon Devices</option>
+        <option value="search-alias=fashion">Amazon Fashion</option>
+        <option value="search-alias=nowstore">Amazon Fresh</option>
+        <option value="search-alias=amazon-pharmacy">Amazon Pharmacy</option>
+        <option value="search-alias=appliances">Appliances</option>
+        <option value="search-alias=mobile-apps">Apps & Games</option>
+        <option value="search-alias=baby">Baby</option>
+        <option value="search-alias=beauty">Beauty</option>
+        <option value="search-alias=stripbooks">Books</option>
+        <option value="search-alias=automotive">Car & Motorbike</option>
+        <option value="search-alias=apparel">Clothing & Accessories</option>
+        <option value="search-alias=collectibles">Collectibles</option>
+        <option value="search-alias=computers">Computers & Accessories</option>
+        <option value="search-alias=todays-deals">Deals</option>
+        <option value="search-alias=electronics">Electronics</option>
+        <option value="search-alias=furniture">Furniture</option>
+        <option value="search-alias=lawngarden">Garden & Outdoors</option>
+        <option value="search-alias=gift-cards">Gift Cards</option>
+        <option value="search-alias=grocery">Grocery & Gourmet Foods</option>
+        <option value="search-alias=hpc">Health & Personal Care</option>
+        <option value="search-alias=kitchen">Home & Kitchen</option>
+        <option value="search-alias=industrial">Industrial & Scientific</option>
+        <option value="search-alias=jewelry">Jewellery</option>
+        <option value="search-alias=digital-text">Kindle Store</option>
+        <option value="search-alias=luggage">Luggage & Bags</option>
+        <option value="search-alias=luxury-beauty">Luxury Beauty</option>
+        <option value="search-alias=dvd">Movies & TV Shows</option>
+        <option value="search-alias=popular">Music</option>
+        <option value="search-alias=mi">Musical Instruments</option>
+        <option value="search-alias=office-products">Office Products</option>
+        <option value="search-alias=pets">Pet Supplies</option>
+        <option value="search-alias=instant-video">Prime Video</option>
+        <option value="search-alias=speed-store">Same-Day Delivery</option>
+        <option value="search-alias=shoes">Shoes & Handbags</option>
+        <option value="search-alias=software">Software</option>
+        <option value="search-alias=sporting">Sports, Fitness & Outdoors</option>
+        <option value="search-alias=specialty-aps-sns">Subscribe & Save</option>
+        <option value="search-alias=home-improvement">Tools & Home Improvement</option>
+        <option value="search-alias=toys">Toys & Games</option>
+        <option value="search-alias=under-ten-dollars">Under ₹500</option>
+        <option value="search-alias=videogames">Video Games</option>
+        <option value="search-alias=watches">Watches</option>
+    </select>
+  </div>
+  <input class="search-input" type="text" />
+  <button class="search-button">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+      />
+    </svg>
+  </button>
+</div>
+
+<div class="country">
+  <select class="language">
+    <option selected="selected">🏳‍🌈EN</option>
+  </select>
+</div>
+
+<div class="account-info">
+  <p class="line3">Hello, sign in</p>
+  <select class="account-select">
+    <option selected="selected" class="account-option">
+ Accounts & Lists
+</option>
+</select>
+</div>
+
+<div class="returns">
+  <p class="line3">Returns</p>
+  <p class="line4">& Offers</p>
+</div>
+
+<div class="header-cart">
+  <div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-5 w-5"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path style= "cursor:pointer"
+        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+      />
+    </svg>
+  </div>
+  <p>Cart</p>
+</div>
+
+  </nav>
+  </header>
+
+  <header class="mini-header">
+    <div class="items">
+      <div>All</div>
+      <div>Sell</div>
+      <div>Best Sellers</div>
+      <div>Today's deals</div>
+      <div>Mobiles</div>
+      <div>Customer Service</div>
+      <div>Electronics</div>
+      <div>Books</div>
+      <div>Fashion</div>
+      <div>Home & Kitchen</div>
+      <div>Prime</div>
+      <div>New Releases</div>
+      <div>Computers</div>
+      <div>Amazon pay</div>
+      
+    </div>
+  </header>
+
+
+  
     <!-- SECTION 1 -->
     <section class="section-1">
       <div class="section-1-container">
