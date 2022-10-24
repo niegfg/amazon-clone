@@ -82,15 +82,11 @@ body {
 .section-1 {
   width: 100%;
   height: auto;
-  background: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/Aug/Apay/GW-PC-Deals-Unrec-3000._CB629506848_.jpg");
   background-size: cover;
   display: flex;
 }
 .section-1 .section-1-container {
-  margin-top: 300px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
