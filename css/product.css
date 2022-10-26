@@ -22,8 +22,8 @@
 .product-detail .product-container {
   margin: 20px;
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
+  justify-content: space-evenly;
 }
 .product-picture {
   width: 50%;
@@ -33,7 +33,7 @@
   box-shadow: 0px 0px 10px rgba(66, 66, 66, 0.1);
 }
 .product-detail-body {
-  width: 50%;
+  width: 30%;
 }
 .product-detail-body .product-title {
   font-size: 25px;
@@ -121,6 +121,7 @@ footer {
   background-color:#232F3E;
   justify-content: center;
   padding:5px;
+  margin-top: 50px;
 }
 
 .nav-footer h4{
