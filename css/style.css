@@ -41,6 +41,7 @@ body {
 .header .header-nav .header-container .amazon-logo {
   width: 100px;
   padding-top: 3px;
+  padding-left: 20px;
 }
 .header .header-nav .header-container .header-search {
   width: 50%;
@@ -74,6 +75,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 20px;
 }
 .header .header-nav .header-container .header-cart svg {
   width: 40px;
