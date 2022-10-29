@@ -26,11 +26,13 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .header .header-nav {
   margin-top: 2px;
   display: flex;
   justify-content: center;
 }
+
 .header .header-nav .header-container {
   width: 1200px;
   height: 100%;
@@ -38,10 +40,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .header .header-nav .header-container .amazon-logo {
   width: 100px;
   padding-top: 3px;
 }
+
 .header .header-nav .header-container .header-search {
   width: 50%;
   display: flex;
@@ -50,6 +54,7 @@ body {
   align-content: center;
   border-radius: 10px !important;
 }
+
 .header .header-nav .header-container .header-search .search-input {
   width: 100%;
   height: 33px;
@@ -57,6 +62,7 @@ body {
   /* border-radius: 5px; */
   padding: 0 10px;
 }
+
 .header .header-nav .header-container .header-search .search-button {
   width: 40px;
   height: 35px;
@@ -69,12 +75,14 @@ body {
   align-content: center;
   color: #232323;
 }
+
 .header .header-nav .header-container .header-cart {
   color: #efefef;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .header .header-nav .header-container .header-cart svg {
   width: 40px;
   height: 40px;
@@ -89,6 +97,7 @@ body {
   background-size: cover;
   display: flex;
 }
+
 .section-1 .section-1-container {
   margin-top: 300px;
   margin-right: 20px;
@@ -99,6 +108,7 @@ body {
   align-items: flex-start;
   gap: 20px;
 }
+
 .section-1 .section-1-container .section-1-column {
   width: 100%;
   /* height: 300px; */
@@ -110,13 +120,15 @@ body {
   margin-top: 20px;
   width: 100%;
   height: auto;
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .section-1 .section-1-container .section-1-column p {
   margin-top: 10px;
   font-size: 14px;
   color: #007185;
 }
+
 .section-1 .section-1-container .section-1-column button {
   margin-top: 10px;
   width: 100%;
@@ -132,9 +144,11 @@ body {
   padding: 20px;
   background-color: white;
 }
+
 .section-2 .section-2-container h3 {
   margin-bottom: 10px;
 }
+
 .section-2 .section-2-container .product-cards {
   display: flex;
   justify-content: flex-start;
@@ -152,18 +166,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .section-2 .section-2-container .product-card img {
   width: auto;
   height: auto;
   max-width: 270px;
   max-height: 200px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /* SECTION 3 */
 .section-3 {
   background-color: white;
 }
+
 .section-3 .section-3-container {
   margin: 20px;
   display: flex;
@@ -171,6 +187,7 @@ body {
   justify-content: flex-start;
   padding: 20px;
 }
+
 .section-3 .section-3-container .product-detail-cards {
   display: flex;
   justify-content: flex-start;
@@ -179,6 +196,7 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
 }
+
 .section-3 .section-3-container .product-detail-cards .product-detail-card {
   display: inline-block;
   width: 200px !important;
@@ -189,38 +207,31 @@ body {
   align-items: flex-start;
   gap: 4px;
 }
-.section-3
-  .section-3-container
-  .product-detail-cards
-  .product-detail-card
-  .product-detail-img {
+
+.section-3 .section-3-container .product-detail-cards .product-detail-card .product-detail-img {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .section-3 .section-3-container .product-detail-cards .product-detail-card img {
   width: 100%;
   height: auto;
   max-width: 160px;
   max-height: 140px;
 }
+
 .section-3 .section-3-container .product-detail-cards .product-detail-card a {
   text-decoration: none;
   color: #007185;
   font-size: 14px;
 }
-.section-3
-  .section-3-container
-  .product-detail-cards
-  .product-detail-card
-  a:hover {
+
+.section-3 .section-3-container .product-detail-cards .product-detail-card a:hover {
   color: #c45500;
 }
-.section-3
-  .section-3-container
-  .product-detail-cards
-  .product-detail-card
-  .product-deliver-by {
+
+.section-3 .section-3-container .product-detail-cards .product-detail-card .product-deliver-by {
   color: #222;
   font-size: 10px;
 }
@@ -230,6 +241,7 @@ body {
   /* background-color: white; */
   padding: 20px;
 }
+
 .section-4 .section-4-container {
   /* border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc; */
@@ -238,10 +250,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .section-4 .section-4-container p {
   margin: 4px;
   font-size: 14px;
 }
+
 .section-4 .section-4-container button {
   width: 300px;
   border: none;
@@ -252,7 +266,8 @@ body {
 
 /* SECTION 5 */
 
-.section-5 .section-5-container a:link, a:visited {
+.section-5 .section-5-container a:link,
+a:visited {
   display: block;
   text-align: center;
   padding: 15px 0;
@@ -262,7 +277,8 @@ body {
   text-decoration: none;
 }
 
-.section-5 .section-5-container a:hover, a:active {
+.section-5 .section-5-container a:hover,
+a:active {
   background-color: #37485f;
 }
 
@@ -279,50 +295,51 @@ footer {
 }
 
 .hover1 figure:hover img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hover1 figure img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
-.nav-footer{
+.nav-footer {
   display: flex;
-  background-color:#232F3E;
+  background-color: #232F3E;
   justify-content: center;
-  padding:5px;
+  padding: 5px;
 }
 
-.nav-footer h4{
+.nav-footer h4 {
   font-size: 15px;
   font-weight: 600;
   color: #FFF;
 }
 
-.nav-footer p{
+.nav-footer p {
   font-size: 12px;
-  padding:4px 0 4px;
+  padding: 4px 0 4px;
   color: #DDD;
   font-family: inherit;
   text-decoration: none;
 }
 
-.nav-footer-left{
+.nav-footer-left {
   display: table-cell;
   padding: 2% 6%;
 }
 
-.nav-footer-right{
+.nav-footer-right {
   display: table-cell;
   padding: 2% 5%;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  scrollbar-width: thin;
+  /* width: 4px; */
 }
 
 ::-webkit-scrollbar-track {
