@@ -66,6 +66,7 @@
   color: white;
   padding: 8px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .product-detail-body .buttons .add-to-cart {
   width: 50%;
@@ -74,6 +75,7 @@
   background-color: transparent;
   padding: 8px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* Section 3 */
