@@ -130,3 +130,6 @@
 .adminForm{
     display: block;
 }
+button.submitBtn {
+    margin-left: 5rem;
+}
